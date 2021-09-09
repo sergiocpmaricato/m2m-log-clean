@@ -27,5 +27,4 @@ rm *.gz
 rm *.log.*
 rm m2m-*[0-9].log
 # Limpando conteudo dos arquivos com mais de 5MB
-#find -size +5M | xargs -i bash -c "> {}"
 find -size +5M -exec > {} \;
